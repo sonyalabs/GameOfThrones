@@ -1,0 +1,43 @@
+{"kingdoms":
+	[{
+		"name":"Kingdom of North",
+		"imgpath":"winterfell.png", 
+		"description":"", 
+		"housename":"House Stark"
+	},
+	{
+		"name":"Kingdom of the Mountain and the Vale", 
+		"imgpath":"eyrie.jpg", 
+		"description":"",
+		"housename":"House Arryn"
+	},
+	{
+		"name":"Kingdom of the Isles and Rivers",
+		"imgpath":"harrenhal.jpg",
+		"description":"",
+		"housename":"Hoare"
+	},
+	{
+		"name":"Kingdom of the Rock",
+		"imgpath":"casterlyrock.jpg", 
+		"description":"", 
+		"housename":"House Lannister"},
+	{
+		"name":"Kingdom of the Stormlands",
+		"imgpath":"stormsend.jpg", 
+		"description":"", 
+		"housename":"House Durrandon"
+	},
+	{
+		"name":"Kingdom of the Reach", 
+		"imgpath":"highgarden.jpg", 
+		"description":"", 
+		"housename":"House Gardener"
+	},
+	{
+		"name":"Dorne", 
+		"imgpath":"sunspeardorne.jpg", 
+		"description":"", 
+		"housename":"House Martell"
+	}]
+}

@@ -1,0 +1,93 @@
+{"houses":
+	[{
+		"name":"House Stark",
+		"imgpath":"stark.jpg", 
+		"description":"", 
+		"videoId":"zmXXw2cyO-A"
+	},
+	{
+		"name":"House Tagaryen", 
+		"imgpath":"targaryen.jpg", 
+		"description":"", 
+		"videoId":"ko9ayLq-k60"
+	},
+	{
+		"name":"House Lannister",
+		"imgpath":"lannister.jpg", 
+		"description":"", 
+		"videoId":"9i083q2CqXI"
+	},
+	{
+		"name":"House Baratheon",
+		"imgpath":"baratheon.jpg", 
+		"description":"", 
+		"videoId":"u-pyxOoq_uM"
+	},
+	{
+		"name":"House Bolton", 
+		"imgpath":"bolton.jpg", 
+		"description":"", 
+		"videoId":"xFZ2AeMRt_Q"
+	},
+	{
+		"name":"House Dothraki", 
+		"imgpath":"dothraki.jpg", 
+		"description":"", 
+		"videoId":"_yDhN8HjME0"
+	},
+	{
+		"name":"House Martell", 
+		"imgpath":"martell.jpg", 
+		"description":"", 
+		"videoId":"NvHcliiyd-I"
+	},
+	{
+		"name":"House Tully", 
+		"imgpath":"tully.jpg", 
+		"description":"", 
+		"videoId":"8Jp0G9QlHHQ"
+	},
+	{
+		"name":"House Tyrell", 
+		"imgpath":"tyrell.jpg", 
+		"description":"", 
+		"videoId":"jAOs-PRwKCY"
+	},
+	{
+		"name":"House Clegane", 
+		"imgpath":"redwyne.jpg", 
+		"description":"", 
+		"videoId":"i6Ucro_xQUU"
+	},
+	{
+		"name":"House Karstark", 
+		"imgpath":"karstark.jpg", 
+		"description":"", 
+		"videoId":""
+	},
+	{
+		"name":"House Greyjoy", 
+		"imgpath":"greyjoy.jpg", 
+		"description":"", 
+		"videoId":"lPb0vSgH6Zs"
+	},
+	{
+		"name":"House Frey", 
+		"imgpath":"frey.jpg", 
+		"description":"", 
+		"videoId":"Zs4KxxkxIRE"
+	},
+	{
+		"name":"House Aegor", 
+		"imgpath":"aegor.jpg", 
+		"description":"", 
+		"videoId":""
+	},
+
+	{
+		"name":"House Arryn", 
+		"imgpath":"arryn.jpg", 
+		"description":"",
+		"videoId":"tdSJ_HGZbzM"
+	}]
+}

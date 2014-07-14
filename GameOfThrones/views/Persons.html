@@ -1,0 +1,19 @@
+<div class="container">
+	
+	<div class="kingdomDiv">
+		<!-- <div class="logo">
+			<img src="./images/game_of_thrones_logo.jpg" class="logoImg">
+		</div> -->
+		<div ng-repeat="person in personsList" class="kingdomRepeat">
+			<div class="imgcontainer">
+				<label>{{person.name}}</label> of <label>House {{ person.housename}}</label>
+				<img ng-src="./images/{{person.imgpath}}" width="250px;" height="200px;">
+			</div>
+			
+			<div>
+				<p>{{person.description}}</p>
+			</div>
+
+		</div>		
+	</div>
+</div>

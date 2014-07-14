@@ -1,0 +1,220 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro/MYRIADPROREGULAR.eot'); /*IE */ 
+	src: url('../fonts/MyriadPro/MYRIADPROREGULAR.ttf') format('truetype');  /*non-IE */
+	src: url('../fonts/MyriadPro/MYRIADPROREGULAR.woff') format('woff'); /*Modern Browsers*/ 
+}
+
+@font-face {
+	font-family: 'icomoon';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/icomoon/icomoon.eot?hom7ej');
+	src:url('../fonts/icomoon/icomoon.eot?#iefixhom7ej') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff?hom7ej') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf?hom7ej') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg?hom7ej#icomoon') format('svg');
+}
+
+body {
+	background: url('../images/gameofthrones_banner.jpg') repeat;
+	font-family: 'MyriadPro';
+	text-align: center;
+	margin: 30px;
+	
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+
+.menuBar {
+	background-image: -webkit-linear-gradient(top, rgba(252, 146, 26, 0.7), rgba(252, 146, 26, 0.7));
+	background-image: -moz-linear-gradient(top, rgba(252, 146, 26, 0.7), rgba(252, 146, 26, 0.7));
+	background-image: -ms-linear-gradient(top, rgba(252, 146, 26, 0.7), rgba(252, 146, 26, 0.7));
+	background-image: -o-linear-gradient(top, rgba(252, 146, 26, 0.7), rgba(252, 146, 26, 0.7));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A')"; 
+	float: left;
+}
+
+.menuBar nav ul
+{
+	list-style: none;
+	margin: 50px;
+	padding: 0;
+	text-align: left;
+}
+
+.menuBar nav ul li {
+	color: #FFF;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	font-family: 'MyriadPro';
+	font-size: 20px;
+	padding-left: 15px;
+	width: auto;
+}
+
+.menuBar nav ul li a {
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.menuBar nav ul li a:hover, .menuBar li.active a {
+	background: none repeat scroll 0% 0% rgba(252, 146, 26, 0.2);
+}
+
+.container {
+	float: left;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.homeStory {
+	background-image: -webkit-linear-gradient(top, rgba(252, 146, 26, 0.8), rgba(252, 146, 26, 0.8));
+	background-image: -moz-linear-gradient(top, rgba(252, 146, 26, 0.8), rgba(252, 146, 26, 0.8));
+	background-image: -ms-linear-gradient(top, rgba(252, 146, 26, 0.8), rgba(252, 146, 26, 0.8));
+	background-image: -o-linear-gradient(top, rgba(252, 146, 26, 0.8), rgba(252, 146, 26, 0.8));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A')"; 
+	float: left;
+	margin: 125px;
+	padding-top: 15px;
+}
+
+.homeStory p {
+	color: #FFFFFF;
+	font-family: 'MyriadPro';
+	font-size: 16px;
+	margin: 20px;
+}
+
+.logo {
+	float: left;
+	width: 100%;
+}
+
+.logoImg {
+	text-align: center;
+	width: 40%;
+	vertical-align: middle;
+}
+
+.menuBarLogo {
+	text-align: right;
+	width: 12%;
+	vertical-align: middle;
+}
+
+.viewContent{
+	display: block;
+	float: left;
+	width: 100%;
+	/*margin: 50px;*/
+	text-align: center;
+}
+
+.ng-scope{
+	width: 100%;
+}
+
+.searchDiv{
+	float: left;
+	padding-bottom: 30px;
+	text-align: right;
+	width: 73%;
+}
+
+.searchDiv label{
+	color: #FFFFFF;
+	font-family: 'MyriadPro';
+	font-size: 16px;
+}
+
+.kingdomRepeat{
+	width: 100%;
+	float: left;
+	text-align: left;
+}
+
+.kingdomDiv{
+
+	background-image: -webkit-linear-gradient(top, rgba(252, 146, 26, 0.5), rgba(252, 146, 26, 0.8));
+	background-image: -moz-linear-gradient(top, rgba(252, 146, 26, 0.5), rgba(252, 146, 26, 0.8));
+	background-image: -ms-linear-gradient(top, rgba(252, 146, 26, 0.5), rgba(252, 146, 26, 0.8));
+	background-image: -o-linear-gradient(top, rgba(252, 146, 26, 0.5), rgba(252, 146, 26, 0.8));
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A'); 
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#2FFC921A', endColorstr='#FC921A')"; 
+	float: left;
+	/*margin: 10%;*/
+	position: relative;
+	padding-top: 15px;
+
+}
+
+.imgcontainer{
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.imgSigils{
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+	color: #FFF;
+	cursor: pointer;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.houseRepeat {
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+#youtubeContainer {
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+	color: #FFF;
+	cursor: pointer;
+	float: left;
+	padding: 15px 3%;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	width: 94%;
+}
+
+#closeImg {
+	height: 55px;
+	position: absolute;
+	right: -20px;
+	text-align: right;
+	top: -20px;
+	width: 55px;
+}
+
+.imgcontainer label{
+	font-size: 50px;
+	width: 100%;
+}
+
+.imgcontainer img{
+	height: 600px;
+	width: 100%;
+}

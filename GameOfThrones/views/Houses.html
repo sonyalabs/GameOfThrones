@@ -1,0 +1,19 @@
+<div class="container">
+	
+	<div class="kingdomDiv">
+		
+		<div ng-repeat="house in housesList | filter:srch_text" class="houseRepeat">
+			<div class="imgSigils">
+				<img ng-src="./images/sigils/{{house.imgpath}}" width="250px;" height="400px;" ng-click="showHistory(house)">
+			</div>
+		</div>
+		
+
+		<div id="youtubeContainer" ng-show='showVid'>
+			<img src="images/close.png" ng-click="hideVideo()" id="closeImg">
+			<youtube ng-if='showVid' code='{{vidID}}'></youtube>
+		</div>
+		
+	</div>
+
+</div>

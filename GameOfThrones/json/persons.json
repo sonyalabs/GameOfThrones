@@ -1,0 +1,44 @@
+{"persons":
+	[{
+		"name":"Tyrion Lannister",
+		"imgpath":"winterfell.png", 
+		"description":"", 
+		"housename":"House Lannister"
+	},
+	{
+		"name":"Danaerys Targaryan", 
+		"imgpath":"eyrie.jpg", 
+		"description":"",
+		"housename":"House Targaryan"
+	},
+	{
+		"name":"Jaime Lannister",
+		"imgpath":"harrenhal.jpg",
+		"description":"",
+		"housename":"Lannister"
+	},
+	{
+		"name":"Eddard Stark",
+		"imgpath":"casterlyrock.jpg", 
+		"description":"", 
+		"housename":"House Stark"
+	},
+	{
+		"name":"Catalyn Stark",
+		"imgpath":"stormsend.jpg", 
+		"description":"", 
+		"housename":"House Stark"
+	},
+	{
+		"name":"Robert Baratheon", 
+		"imgpath":"highgarden.jpg", 
+		"description":"", 
+		"housename":"House Baratheon"
+	},
+	{
+		"name":"Joffery Baratheon", 
+		"imgpath":"sunspeardorne.jpg", 
+		"description":"", 
+		"housename":"House Baratheon"
+	}]
+}

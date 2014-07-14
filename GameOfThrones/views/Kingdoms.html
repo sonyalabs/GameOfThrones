@@ -1,0 +1,17 @@
+<div class="container">
+	
+	<div class="kingdomDiv">
+		
+		<div ng-repeat="kingdom in kingdomsList" class="kingdomRepeat">
+			<div class="imgcontainer">
+				<label>{{kingdom.name}} of {{ kingdom.housename}}</label>
+				<img ng-src="./images/{{kingdom.imgpath}}" >
+			</div>
+			
+			<div>
+				<p>{{kingdom.description}}</p>
+			</div>
+
+		</div>		
+	</div>
+</div>
